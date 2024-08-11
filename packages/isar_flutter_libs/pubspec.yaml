@@ -4,8 +4,6 @@ version: 3.1.0+1
 repository: https://github.com/isar/isar
 homepage: https://isar.dev
 
-publish_to: "none"
-
 environment:
   sdk: ">=2.17.0 <3.0.0"
   flutter: ">=3.0.0"
@@ -13,8 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  isar:
-    path: ../isar
+  isar: 3.1.0+1
 
 flutter:
   plugin:
